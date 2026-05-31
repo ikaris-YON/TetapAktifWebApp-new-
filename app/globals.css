@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-cream: #F5F2ED;
+  --color-brand-brown: #4A3728;
+  --color-brand-terracotta: #C65D3B;
+  --color-brand-terracotta-dark: #A3492F;
+  --color-brand-card: rgba(255, 255, 255, 0.7);
+  --font-serif: var(--font-serif);
+}
+
+body {
+  @apply bg-brand-cream text-brand-brown font-sans antialiased;
+}
+
+@utility glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(198, 93, 59, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+@utility editorial-title {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-style: italic;
+  color: var(--color-brand-terracotta);
+}
+
+@utility large-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  border: 3px solid var(--color-brand-terracotta);
+  background: white;
+  font-size: 32px;
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--color-brand-terracotta);
+  width: 70px;
+  height: 70px;
+}
+
+@utility tracker-value {
+  font-size: 64px;
+  font-weight: 800;
+  letter-spacing: -2px;
+  color: var(--color-brand-brown);
+}
+

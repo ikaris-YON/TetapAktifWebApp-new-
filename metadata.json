@@ -1,0 +1,8 @@
+{
+  "name": "Tetap Aktif",
+  "description": "A tailored, low-impact daily workout tracker and exercise recommender for the elderly.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
